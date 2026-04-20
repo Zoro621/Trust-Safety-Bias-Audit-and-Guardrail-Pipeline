@@ -1,0 +1,44 @@
+# ============================================================
+# requirements.txt — Responsible & Explainable AI Assignment
+# FAST-NUCES | Part 1–5
+#
+# Python version: 3.10.x
+# GPU: NVIDIA T4 (Kaggle free tier)
+# CUDA: 11.8 (via Kaggle default torch build)
+#
+# Install all:
+#   pip install -r requirements.txt
+#
+# On Kaggle (system Python, no venv):
+#   pip install --break-system-packages -r requirements.txt
+# ============================================================
+
+# ── Core ML / Deep Learning ──────────────────────────────────
+torch==2.2.0
+torchvision==0.17.0          # pulled in by torch; pinned for reproducibility
+transformers==4.40.0
+accelerate==0.29.3
+tokenizers==0.19.1            # HuggingFace tokenizer backend
+
+# ── Scikit-learn ecosystem ────────────────────────────────────
+scikit-learn==1.4.2
+
+# ── Fairness toolkits ─────────────────────────────────────────
+aif360==0.6.1
+fairlearn==0.10.0
+
+# ── Data handling ─────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Utilities ────────────────────────────────────────────────
+tqdm==4.66.2                  # progress bars in Trainer
+regex==2024.4.16              # HuggingFace tokenizer dependency
+safetensors==0.4.3            # fast model weight serialisation
+huggingface-hub==0.23.0       # model/tokenizer download
+filelock==3.14.0
+packaging==24.0
