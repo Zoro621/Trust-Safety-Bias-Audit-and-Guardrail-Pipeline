@@ -46,7 +46,7 @@ The dataset is **not included** in this repository. You must download it separat
    ```
 3. Accept the competition rules on the **Rules** tab.
 4. Go to the **Data** tab and download **only these two files**:
-   - `train.csv` (the main training file with identity columns)
+   - `jigsaw-multilingual-toxic-comment-classification.csv` (the main training file with identity columns)
    - `validation.csv` (optional sanity check)
 5. Do **not** download `jigsaw-toxic-comment-train.csv`, the `*-seqlen128.csv` files, `test.csv`, `test_labels.csv`, or `sample_submission.csv`.
 
